@@ -35,6 +35,12 @@ main_page_head = '''
             width: 100%;
             height: 100%;
         }
+
+        .movies {
+        display:flex;
+        flex-wrap: wrap;
+        }
+
         .movie-tile {
             margin-bottom: 20px;
             padding-top: 20px;
@@ -112,7 +118,7 @@ main_page_content = '''
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container movies">
       {movie_tiles}
     </div>
   </body>
