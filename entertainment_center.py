@@ -56,5 +56,5 @@ deadpool = media.Movie("Deadpool",
 movies = [two_towers, oldboy, rogue_one,
           return_of_the_king, tropic_thunder, deadpool]
 
-# Pass movies to fresh_tomatoes.py and call generate webpage method
+# Pass movies to fresh_tomatoes.py and call generate webpage
 fresh_tomatoes.open_movies_page(movies)

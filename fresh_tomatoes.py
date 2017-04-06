@@ -14,6 +14,7 @@ main_page_head = '''
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
@@ -113,7 +114,21 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#" style="line-height:2em">Movie Trailers</a>
+          </div>
+          <div class="navbar-collapse">
+              <ul class ="nav navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/Jormangandur/udacity-fsnd-movie-website" target="_blank">
+                        <span class="fa fa-github" style="font-size:36px"></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://www.imdb.com" target="_blank">
+                        <span class="fa fa-imdb" style="font-size:36px"></span>
+                    </a>
+                </li>
+              </ul>
           </div>
         </div>
       </div>
